@@ -49,18 +49,28 @@ ul li a.active {
 .logo img:hover {
     transform: scale(1.2);
 }
-img#panoroma {
-    margin-top: 8%;
+img#pp {
+    margin-top: 10%;
     position: absolute;
-    border: 1px solid skyblue;
-    width: 100%;
+    width: 35vw;
     height: auto;
+    padding-left: 25vw;
 }
 main {
-    padding-top: 17vw;
-    grid-row-gap: 15vw;
-    grid-column-gap: 22vw;
+    padding-top: 35vw;
+   /* grid-row-gap: 15vw;
+    grid-column-gap: 22vw;*/
     position: relative;
+     color: skyblue;
+
+    display: grid;
+    width: 90vw;
+    grid-column-gap: 15vw;
+    grid-row-gap: 10vw;
+    grid-template-columns: 1fr ;
+    grid-template-areas: "b1 b1 b1 b1"
+        "b2 b2 b2 b2"
+        "b3 b3 b3 b3"
 }
 main p {
     color: skyblue;
@@ -77,8 +87,7 @@ main img{
     font-family: monospace;
      color: skyblue;
     border: 1px solid skyblue;
-    margin: 4px;
-    grid-area: b3;
+    grid-area: b1;
     height: 25vw;
 
 
@@ -91,7 +100,7 @@ main img{
      color: skyblue;
     border: 1px solid skyblue;
     margin: 4px;
-    grid-area: b3;
+    grid-area: b2;
     height: 35vw;
 
 }

@@ -51,24 +51,23 @@ ul li a.active {
 .logo img:hover {
     transform: scale(1.2);
 }
+
 main {
     padding-top: 10vw;
 }
 
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
 
-} * /
+}
 
 div.gallery:hover {
-  border: 1px solid # 777;
+    border: 1px solid # 777;
 }
 
 div.gallery img {
-  width: 30vw;
-  height: 20vw;
+    width: 30vw;
+    height: 20vw;
 }
-
-
